@@ -27,7 +27,7 @@ alert(`La suma de los numeros es ${suma}`)
 
 //Solucion 2
 
-let suma = 0;
+/*let suma = 0;
 let numero = 0;
 
 while(true){
@@ -44,6 +44,39 @@ while(true){
 
 
 alert(`La suma de los numeros ingresado es ${suma}`)
+
+
+let suma = 0;
+let numero = 0;
+
+while(true){
+    
+    numero = parseInt(prompt("Ingrese los numeros positivos que quiere sumar: (El programa termina con -1)"));
+    if(numero === -1){
+        break;
+    }
+    numero >= 0 ? (suma = suma + numero) : alert("El numero que tieen que ingresar tiene que ser positivo")
+}
+
+
+alert(`La suma de los numeros ingresado es ${suma}`)
+*/
+const resultado = prompt("Ingresa el nombre")
+const handleDeepLink = {
+    'promotion': () => {
+        alert(' Bienbenido a la promocion')
+        return '%20 de descuento'
+    },
+    '2x1': () => {
+        alert('Bienbenido al 2x1')
+        return '%100 de descuento'
+    },
+    'regalo': () => {
+        alert('Bienbenido al regalo')
+        return 'envio gratis'
+    }
+}
+alert(handleDeepLink[resultado]())
 
 /*
 //Solucion 3
