@@ -8,7 +8,6 @@ si no tiene que seguir piendo numeros.
 /*
 let numero = parseInt(prompt("Ingrese los numeros positivos que quiere sumar: (EL programa termina con -1)"));
 let suma = 0;
-
 while(numero != -1){
     if(numero >= 0){
         suma = suma + numero;
@@ -21,7 +20,6 @@ while(numero != -1){
     }
     
 }
-
 alert(`La suma de los numeros es ${suma}`)
 */
 
@@ -29,7 +27,6 @@ alert(`La suma de los numeros es ${suma}`)
 
 /*let suma = 0;
 let numero = 0;
-
 while(true){
     numero = parseInt(prompt("Ingrese los numeros positivos que quiere sumar: (El programa termina con -1)"));
     if(numero === -1){
@@ -41,14 +38,9 @@ while(true){
         alert("El numero que tieen que ingresar tiene que ser positivo")
     }
 }
-
-
 alert(`La suma de los numeros ingresado es ${suma}`)
-
-
 let suma = 0;
 let numero = 0;
-
 while(true){
     
     numero = parseInt(prompt("Ingrese los numeros positivos que quiere sumar: (El programa termina con -1)"));
@@ -57,8 +49,6 @@ while(true){
     }
     numero >= 0 ? (suma = suma + numero) : alert("El numero que tieen que ingresar tiene que ser positivo")
 }
-
-
 alert(`La suma de los numeros ingresado es ${suma}`)
 */
 const resultado = prompt("Ingresa el nombre")
@@ -82,7 +72,6 @@ alert(handleDeepLink[resultado]())
 //Solucion 3
 let suma = 0;
 let numero = 0;
-
 while(true){
     numero = parseInt(prompt("Ingrese los numeros positivos que quiere sumar: (El programa termina con -1)"));
     switch(numero){
@@ -95,6 +84,5 @@ while(true){
         break;
     }
 }
-
 alert(`La suma de los numeros ingresado es ${suma}`)
 */
