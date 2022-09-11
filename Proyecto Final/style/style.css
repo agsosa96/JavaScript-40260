@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#tableroSnake, .informacionSnake{
+    max-width: 600px;
+}
+
+#tableroSnake{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+}
+
+#inicioSnake, .informacionSnake{
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 25px;
+}
+
+#juegoTerminadoSnake{
+    display: none;
+}
+
+.informacionSnake{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#inicioSnake{
+    background-color: brown;
+    border: none;
+    color: #fff;
+}
+
+#puntuacionSnake{
+    display: inline-flex;
+}
+
+
+.contenedorBodyRompecabezas{
+    width: 600;
+    height: 600;
+}
+
+#imagen{
+    width: 400;
+    height: 400;
+}
+
